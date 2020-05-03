@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Covid-19 </title>
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="bootstrap-4.4.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    
+</head>
+<body>
+    <!-- Navigation bar -->
+    <nav class="navbar navbar-expand-lg bg-light navbar-light fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand mr-auto pr-2" href="#"><img src="img/brand.png" height="35" width="41"></a>
+            <a href="#" class="navbar-brand"><strong>Covid-19</strong></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a href="#home-section" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#virus-spread" class="nav-link">Virus Spread</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#symptoms" class="nav-link">Symptoms</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#prevent" class="nav-link">Prevent Yourself</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#map-section" class="nav-link">Donate</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#main-footer" class="nav-link">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HOME SECTION  -->
+    <header id="home-section">
+        <div class="dark-overlay">
+            <div class="home-inner">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 d-none d-lg-block"> <!--d-none for display noting for small screen-->
+                            <h1 class="display-4"><strong> Covid-19 </strong><br>Know <strong>The </strong> Facts</h1>
+
+                            <div class="d-flex flex-row"> <!-- d-flex for alignment-->
+                                <div class="p-4 align-self-start"> <!-- p-4 : padding -->
+                                    <i class="fa fa-check"></i>
+                                </div>
+                                <div class="p-4 align-self-end">
+                                    <p class="lead">COVID-19 (more specifically, a coronavirus) is the disease identified as the cause of an outbreak of respiratory illness first detected in Wuhan, China.</p>  
+                                </div>
+                            </div>
+                            <div class="d-flex flex-row"> <!-- d-flex for alignment-->
+                                <div class="p-4 align-self-start"> <!-- p-4 : padding -->
+                                    <i class="fa fa-check"></i>
+                                </div>
+                                <div class="p-4 align-self-end">
+                                    <p class="lead">COVID-19 has spread to many parts of the world and most recently here in the United States. The Centers for Disease Control and Prevention gave out steps you can take to help better protect yourself.</p>
+                                </div>
+                            </div>
+                            <div class="d-flex flex-row"> <!-- d-flex for alignment-->
+                                <div class="p-4 align-self-start"> <!-- p-4 : padding -->
+                                    <i class="fa fa-check"></i>
+                                </div>
+                                <div class="p-4 align-self-end">
+                                    <p class="lead">The most common way to get COVID-19 is by inhaling respiratory droplets in the air. When a person with COVID-19 coughs and sneezes, tiny droplets leave their mouth and nose and go into the air. You can’t see these droplets.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="card bg-primary text-centre card-form">
+                                <div class="card-body">
+                                    <h3>Sign Up for Updates</h3>
+                                    <p> please fill up this form to register</p>
+                                    <form>
+                                        <div class="form-group">
+                                            <input type="text" class="form-control form-control-lg" placeholder="username">
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="email" class="form-control form-control-lg" placeholder="Email">
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="password" class="form-control form-control-lg" placeholder="password">
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="password" class="form-control form-control-lg" placeholder="confirm password">
+                                        </div>
+                                        <input type="submit" class="btn btn-outline-light btn-block" value="submit">
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <hr>
+
+    <!-- Virus Spread-->
+    <section class="py-5" id="virus-spread">
+        <div class="container">
+            <h4 class="text-danger" style="text-align: center;">How Virus Spread</h4>
+            <h2 style="text-align: center; color: black;">How coronavirus is contagious</h2>
+            <!-- Card Light -->
+            <div class="row justify-content-around">
+                <div class="col-lg-6">
+                    <div class="card bg-light text-center">
+                            <div class="card-body">
+                                <img src="img/contact.jpg" alt="contact" class="img-fluid rounded-circle img-spread">
+                                <h4 class="card-title text-dark"><strong>Human Contact</strong></h4>
+                                <p class="card-text text-dark">While Physical touching with the person that is infected</p>
+                            </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="card bg-light text-center">
+                            <div class="card-body">
+                                <img src="img/airtransfer.jpg" alt="cough" class="img-fluid rounded-circle img-spread">
+                                <br>
+                                <h4 class="card-title text-dark"><strong>Air Transmission</strong></h4>
+                                <p class="card-text text-dark">The virus is transmitted through the air while sneezing</p>
+                            </div>
+                    </div>
+                </div>
+            </div>               
+            <br>
+                <div class="row justify-content-center">
+                    <div class="col-lg-6">
+                        <div class="card bg-light text-center">
+                                <div class="card-body">
+                                    <img src="img/contaminatedObjects.png" alt="" class="img-fluid rounded-circle img-spread">
+                                    <h4 class="card-title text-dark"><strong>Contaminated Objects</strong></h4>
+                                    <p class="card-text text-dark">The object that is touched by the infected person and you touch</p>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </section>
+    <hr>
+
+    <!-- Symptoms -->
+    <section class="py-5" id="symptoms">
+        <div class="cotainer bg-warning text-center">
+            <h4 class="text-light" style="text-align: center;">Symptoms of Coronavirus</h4>
+            <h2 style="text-align: center; color: black;">Stay Safe From The Coronavirus.</h2>
+            <div class="row justify-content-around">
+                <div class="col-6">
+                    <img src="img/cough.jpg" alt="cough" class="img-fluid rounded-circle img-spread">
+                    <h3>Coughing And sneezing</h3>
+                </div>
+                <div class="col-6">
+                    <img src="img/fever.jpg" alt="sneezing" class="img-fluid rounded-circle img-spread">
+                    <h3>Hot fever</h3>
+                </div>
+            </div>
+            <br>
+            <div class="row justify-content-around">
+                <div class="col-6">
+                    <img src="img/headache.jpg" alt="headache" class="img-fluid rounded-circle img-spread">
+                    <h3>Strong Headache</h3>
+                </div>
+                <div class="col-6">
+                    <img src="img/breath.jpg" alt="breath" class="img-fluid rounded-circle img-spread">
+                    <h3>Breathing Problem</h3>
+                </div>
+            </div>
+            <br>
+            <div class="row justify-content-around">
+                <div class="col-6">
+                    <img src="img/confusion.jpg" alt="confusion" class="img-fluid rounded-circle img-spread">
+                    <h3>Confusion</h3>
+                </div>
+                <div class="col-6">
+                    <img src="img/thorat.jpg" alt="thorat" class="img-fluid rounded-circle img-spread">
+                    <h3>Throat</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr>
+
+    <!-- Prevention -->
+    <section class="py-5" id="prevent">
+        <div class="container">
+            <h4 class="text-danger" style="text-align: center;">Should Do And Sould Avoid</h4>
+            <h2 style="text-align: center; color: black;">Prevention Coronavirus Covid-19</h2>
+            <!-- Card -->
+            <div class="row justify-content-around">
+                <div class="col-lg-6">
+                    <div class="card bg-success text-center">
+                            
+                            <div class="card-body">
+                                <img src="img/img1.jpg" alt="img" class="img-fluid rounded-circle img-spread">
+                                <h4 class="card-title text-light"><strong>Wash your hands with sanitizer</strong></h4>
+                                <p class="card-text text-light lead">Wash the hands properly. Wash with the liquid or soap that destroy the germs. Use sanitizer to kill the germs.</p>
+                            </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="card bg-danger text-center">
+                            <div class="card-body">
+                                <img src="img/sick.jpg" alt="sick" class="img-fluid rounded-circle img-spread">
+                                <br>
+                                <h4 class="card-title text-light"><strong>Avoid contact with sick people</strong></h4>
+                                <p class="card-text text-light lead">Do not meet the sick people Social distance Should be maintained</p>
+                            </div>
+                    </div>
+                </div>
+            </div>               
+            <br>
+                
+            <div class="row justify-content-around">
+                <div class="col-lg-6">
+                    <div class="card bg-success text-center">
+                            <div class="card-body">
+                                <img src="img/mask.jpg" alt="img" class="img-fluid rounded-circle img-spread">
+                                <h4 class="card-title text-light"><strong>Wear a face mask Outside</strong></h4>
+                                <p class="card-text text-light lead">Wear the face mask that cover the nose and the mouth. Use any cloth to cover the face mask with sanitizer.</p>
+                            </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="card bg-danger text-center">
+                            <div class="card-body">
+                                <img src="img/contact.jpg" alt="sick" class="img-fluid rounded-circle img-spread">
+                                <br>
+                                <h4 class="card-title text-light"><strong>Avoid Crowded places</strong></h4>
+                                <p class="card-text text-light lead">Do not go to the place where there are crowd. Avoid to visit public places.</p>
+                            </div>
+                    </div>
+                </div>
+            </div>               
+            <br>
+
+            <div class="row justify-content-around">
+                <div class="col-lg-6">
+                    <div class="card bg-success text-center">
+                            <div class="card-body">
+                                <img src="img/tissue.jpg" alt="img" class="img-fluid rounded-circle img-spread">
+                                <h4 class="card-title text-light"><strong>Cover your cough with a tissue paper</strong></h4>
+                                <p class="card-text text-light lead">While coughing cover the mouth with the tissue or paper. Split the cough in wash basin and clean it with the help of water.</p>
+                            </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="card bg-danger text-center">
+                            <div class="card-body">
+                                <img src="img/CO.jpg" alt="sick" class="img-fluid rounded-circle img-spread">
+                                <br>
+                                <h4 class="card-title text-light"><strong>Contaminated Objects</strong></h4>
+                                <p class="card-text text-light lead">Do not touch the objects which are oftenly touched by the different people.</p>
+                            </div>
+                    </div>
+                </div>
+            </div>               
+        </div>
+    </section>
+    <br>
+
+    
+
+
+    <!-- map  -->
+    <section class="py-5" id="map-section">
+        <div class="container ">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 d-lg-block"> <!--d-none for display noting for small screen-->
+                    <h1 class="text-danger" style="text-align: center;">Mapping The Coronavirus Outbreak</h1>
+                    <h2 style="text-align: center; color: black;" style="text-align: center;" class="lead display-10">Get daily Updates on the epidemic and learn how it is affecting countires around the world.</h2>
+
+                    <div class="d-flex flex-row"> <!-- d-flex for alignment-->
+                        <div class="p-4 align-self-start"> <!-- p-4 : padding -->
+                            <img src="img/covid1.jpg" alt="covid" class="img-fluid img-spread rounded-circle">
+                        </div>
+                        <div class="p-4 align-self-center">
+                            <h2 class="text-dark text-center">3098828</h2> <p class="lead text-dark">Coronavirus Cases</p>  
+                        </div>
+                    </div>
+                    <div class="d-flex flex-row"> <!-- d-flex for alignment-->
+                        <div class="p-4 align-self-center"> <!-- p-4 : padding -->
+                            <img src="img/covid2.jpg" alt="covid" class="img-fluid img-spread rounded-circle">
+                        </div>
+                        <div class="p-4 align-self-end">
+                            <h2 class="text-dark text-center">925285 </h2> <p class="lead text-dark"> Recovered Cases</p>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-row"> <!-- d-flex for alignment-->
+                        <div class="p-4 align-self-center"> <!-- p-4 : padding -->
+                            <img src="img/covid3.jpg" alt="covid" class="img-fluid img-spread rounded-circle">
+                        </div>
+                        <div class="p-4 align-self-end">
+                            <h2 class="text-dark text-center">216658</h2> <p class="lead text-dark">Death Cases</p>
+                        </div>
+                    </div>
+                </div>
+
+                    <div class="col-lg-4 pt-2">
+                        <div class="card bg-light card-form text-dark">
+                            <div class="card-header"><strong>Payment Details</strong></div>
+                            <div class="card-body">
+                                <p class="text-center">Please donate as much you as can so that we can help needy people</p>
+                                <form>
+                                    <div class="form-group ">
+                                        <label for=""><strong>CARD HOLDER NAME</strong></label>
+                                        <input type="text" class="form-control form-control-lg bg-outline-primary" placeholder="Name on Card">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for=""><strong>CARD NUMBER</strong></label>
+                                        <input type="text" class="form-control form-control-lg bg-outline-primary" placeholder="Valid Card Number">
+                                    </div>
+                                    <div class="form-group">
+                                        <label><strong>EXPIRY DATE</strong></label>
+                                    </div>
+                                    <div class="form-inline">
+                                        <input type="number" class="form-control form-control-lg w-50 " placeholder="MM" size="2">
+                                        <input type="number" class="form-control form-control-lg w-50 " placeholder="YY" size="2"></span>
+                                        
+                                    </div>
+                                    <br>
+                                    <div class="form-group">
+                                        <label for=""><strong>CVV</strong></label>
+                                        <input type="password" class="form-control form-control-lg" placeholder="ex. 318" size="3">
+                                    </div>
+                                    <input type="submit" class="btn bg-success text-light btn-block" value="Pay">
+                                </form>
+                            </div>
+                        </div>
+                    </div>                    
+                </div>
+            </div>
+        </section>
+
+    <!-- MAIN FOOTER  --> 
+    <footer id="main-footer" class="bg-dark">
+        <div class="container">
+            <div class="row">
+                <div class="col text-center">
+                    <div class="py-4">
+                        <h1 class="h3">Stay home & Stay Safe</h1>
+                        <p>Copyright &copy; 2020 All Rights Reserved Designed by <strong>Naveen Babu</strong></p>
+                        <button class="btn btn-primary" data-toggle="modal" data-target="#contactModal">contact Us</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- CONTACT MODEL -->
+    <div class="modal fade text-dark" id="contactModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="contactModalTitle">Contact Us</h5>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" class="form-control" placeholder="Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" class="form-control" placeholder="Email">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea class="form-control"></textarea>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-primary btn-block">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <!-- Script jquery, popper, bootstrap -->
+    <script src="js/jquery.slim.min.js"></script>
+    <!-- <script src="js/jquery.min.js"></script> -->
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

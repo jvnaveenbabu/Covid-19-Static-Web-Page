@@ -1,0 +1,81 @@
+body{
+    background-color: #fff;
+    color: #fff;
+}
+
+#home-section{
+    background: url('img/home.png') no-repeat;
+    background-size: cover;
+    min-height: 800px;
+    background-attachment: fixed;
+}
+
+#map-section{
+    background-color: rgba(187, 1, 94, 0.2);
+    min-height: 100px;
+
+}
+
+/* nav{
+    border-bottom: 2px solid gray;
+} */
+.dark-overlay{
+    background-color:rgba(0,0,0,0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 800px;
+}
+
+.home-inner{
+    padding-top: 150px;
+}
+
+.fa{
+    color: #008ed6;
+    background-color: #fff;
+    padding: 4px;
+    border-radius:5px;
+    font-size: 30px;
+}
+
+.card{
+    padding: 20px;
+    min-height:300px;
+    min-width: 200px;
+}
+
+.card-form{
+    opacity: 0.8;
+}
+
+.img-spread{
+    width: 100px;
+    height: 100px;
+}
+
+#virus-spread{
+    background: url('img/virus-spread.jpg') no-repeat;
+    background-size: cover;
+    min-height: 300px;
+    background-attachment: fixed;
+
+}
+
+#prevent{
+    background: url('img/prevent.jpg') no-repeat;
+    background-size: cover;
+    min-height: 300px;
+    background-attachment: fixed;
+}
+
+#map-section{
+    background:url('img/virus-spread.jpg') no-repeat;
+    background-size: cover;
+    min-height: 300px;
+    background-attachment: fixed;
+}
+
+
+
